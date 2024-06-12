@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旅行社 - 菲律宾旅游</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #008080;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #006666;
+        }
+        nav a {
+            display: inline-block;
+            margin: 0 1rem;
+            padding: 1rem 0;
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #004c4c;
+        }
+        main {
+            padding: 2rem;
+        }
+        .destination {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: space-around;
+        }
+        .destination div {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+        }
+        .destination img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .destination h3 {
+            margin: 0;
+            padding: 1rem;
+            background-color: #008080;
+            color: white;
+            text-align: center;
+        }
+        .destination p {
+            padding: 1rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我们的旅行社</h1>
+        <p>探索菲律宾的美丽风光</p>
+    </header>
+    <nav>
+        <a href="#about">关于我们</a>
+        <a href="#destinations">热门目的地</a>
+        <a href="#contact">联系我们</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>关于我们</h2>
+            <p>我们是一家专业的旅行社，专注于提供前往菲律宾的旅游服务。我们致力于为爱旅游的人士提供优质的旅游体验。</p>
+        </section>
+        <section id="destinations" class="destination">
+            <h2>热门目的地</h2>
+            <div>
+                <img src="https://example.com/boracay.jpg" alt="Boracay">
+                <h3>长滩岛</h3>
+                <p>享受美丽的白沙滩和清澈的海水，是潜水和放松的绝佳去处。</p>
+            </div>
+            <div>
+                <img src="https://example.com/cebu.jpg" alt="Cebu">
+                <h3>宿务</h3>
+                <p>探索丰富的历史文化和壮观的自然景观，体验独特的菲律宾风情。</p>
+            </div>
+            <div>
+                <img src="https://example.com/palawan.jpg" alt="Palawan">
+                <h3>巴拉望</h3>
+                <p>感受原始的自然美景和丰富的野生动植物，是生态旅游的理想选择。</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>联系我们</h2>
+            <p>如有任何疑问或需要预订服务，请通过以下方式联系我们：</p>
+            <p>电子邮件: <a href="mailto:info@travelagency.com">info@travelagency.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 旅行社. 版权所有.</p>
+    </footer>
+</body>
+</html>
